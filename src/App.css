@@ -1,0 +1,103 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.head{
+display: flex;
+margin: 3px;
+align-items: center;
+}
+
+.head select{
+  width: 200px;
+  height: 50px;
+  background-color: rgb(28, 170, 163);
+  font-weight: bold;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 20px;
+  font-size: 15px;
+  margin: 0px 10px;
+  cursor: pointer;
+}
+
+.head select option{
+  text-align: center;
+}
+
+.matrix{
+  border: 3px solid bisque;
+  background-color: bisque;
+}
+
+.row{
+ border-bottom: 3px solid black;
+}
+
+.cell{
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  text-align: center;
+  padding: 0;
+  border: 1px solid black;
+}
+
+.buttonContainer{
+margin-top: 12px;
+}
+
+.rbButton{
+  background-color: rgb(255, 72, 0);
+  font-weight: bold;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 20px;
+  font-size: 15px;
+  margin: 0px 10px;
+  cursor: pointer;
+}
+
+.checkButton{
+  background-color: orange;
+  font-weight: bold;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 20px;
+  font-size: 15px;
+  margin: 0px 10px;
+  cursor: pointer;
+}
+
+.solveButton{
+  background-color: orange;
+  font-weight: bold;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 20px;
+  font-size: 15px;
+  margin: 0px 10px;
+  cursor: pointer;
+}
+
+.resetButton{
+  background-color: rgb(28, 170, 163);
+  font-weight: bold;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 20px;
+  font-size: 15px;
+  margin: 0px 10px;
+  cursor: pointer;
+}
