@@ -33,9 +33,10 @@ const handleSelect = (event) => {
 const onInputChange = (e, row, col) => {
   let val = parseInt(e.target.value) || 0;
   let grid = deepCopy(boardArr);
-  if(val === 0 || val >= 1 && val <= 9){
+  if ((val === 0) || (val >= 1 && val <= 9)) {
     grid[row][col] = val;
-  } 
+  }
+
   setBoardArr(grid);
 }
 
